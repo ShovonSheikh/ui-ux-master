@@ -1,5 +1,5 @@
 ---
-name: ui-ux-master
+name: saas-ui-master
 description: "Comprehensive UI/UX design intelligence combining a 4-Layer SaaS Master Guide with a robust CLI search system. 50 styles, 97 palettes, 57 font pairings, 25 chart types, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, mobile app. Topics: 4-layer color palette, OKLCH theming, layout, typography, font pairing, accessibility, animation, hover, dark mode contrast."
 ---
 
@@ -104,7 +104,7 @@ Extract key information from the user request:
 **Always start with `--design-system**` to get comprehensive recommendations with reasoning:
 
 ```bash
-python3 skills/ui-ux-master/scripts/search.py "<product_type> <industry> <keywords>" --design-system [-p "Project Name"]
+python3 skills/saas-ui-master/scripts/search.py "<product_type> <industry> <keywords>" --design-system [-p "Project Name"]
 
 ```
 
@@ -120,7 +120,7 @@ This command:
 To save the design system for **hierarchical retrieval across sessions**, add `--persist`:
 
 ```bash
-python3 skills/ui-ux-master/scripts/search.py "<query>" --design-system --persist -p "Project Name"
+python3 skills/saas-ui-master/scripts/search.py "<query>" --design-system --persist -p "Project Name"
 
 ```
 
@@ -132,7 +132,7 @@ This creates:
 **With page-specific override:**
 
 ```bash
-python3 skills/ui-ux-master/scripts/search.py "<query>" --design-system --persist -p "Project Name" --page "dashboard"
+python3 skills/saas-ui-master/scripts/search.py "<query>" --design-system --persist -p "Project Name" --page "dashboard"
 
 ```
 
@@ -147,7 +147,7 @@ python3 skills/ui-ux-master/scripts/search.py "<query>" --design-system --persis
 After getting the design system, use domain searches to get additional details:
 
 ```bash
-python3 skills/ui-ux-master/scripts/search.py "<keyword>" --domain <domain> [-n <max_results>]
+python3 skills/saas-ui-master/scripts/search.py "<keyword>" --domain <domain> [-n <max_results>]
 
 ```
 
@@ -166,7 +166,7 @@ python3 skills/ui-ux-master/scripts/search.py "<keyword>" --domain <domain> [-n 
 Get implementation-specific best practices. If the user doesn't specify a stack, **default to `html-tailwind**`.
 
 ```bash
-python3 skills/ui-ux-master/scripts/search.py "<keyword>" --stack html-tailwind
+python3 skills/saas-ui-master/scripts/search.py "<keyword>" --stack html-tailwind
 
 ```
 
@@ -197,10 +197,10 @@ The `--design-system` flag supports two output formats:
 
 ```bash
 # ASCII box (default) - best for terminal display
-python3 skills/ui-ux-master/scripts/search.py "fintech crypto" --design-system
+python3 skills/saas-ui-master/scripts/search.py "fintech crypto" --design-system
 
 # Markdown - best for documentation
-python3 skills/ui-ux-master/scripts/search.py "fintech crypto" --design-system -f markdown
+python3 skills/saas-ui-master/scripts/search.py "fintech crypto" --design-system -f markdown
 
 ```
 
