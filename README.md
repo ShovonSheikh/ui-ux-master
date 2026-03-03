@@ -28,3 +28,30 @@ You can install this skill directly into your AI agent environment using [skills
 ```bash
 npx skills add ShovonSheikh/ui-ux-master
 ```
+
+### Prerequisites
+
+Because this skill utilizes a local search database, ensure Python 3 is installed on your system:
+
+```bash
+python3 --version || python --version
+```
+
+---
+
+## 💻 How It Works
+
+Once installed, your AI agent (whether in Cursor, Windsurf, or a CLI agent) will automatically trigger this skill whenever you ask it to design, code, review, or fix a user interface.
+
+The agent will follow a two-step process:
+
+1. **Apply Core SaaS Rules:** It will immediately apply the strict UI/UX Master Guide (e.g., swapping emojis for SVG icons, fixing background layer contrast, organizing layouts).
+2. **Query the Database:** It will run terminal commands in the background to fetch specific hex codes, font pairings, or framework-specific rules (like React, Tailwind, or Vue best practices) to match your exact prompt.
+
+### Example Prompt to Try:
+
+```
+*"I'm building a settings page for my healthcare SaaS app. The sidebar currently has: Dashboard, Profile, Security, Billing, Team, API Keys, Integrations, and Logout. It feels cluttered. Generate a new layout and a dark mode color palette using a professional green accent."*
+```
+
+The agent will consolidate your navigation, generate an OKLCH-based green theme, calculate the proper dark mode contrast steps, and write the code.
