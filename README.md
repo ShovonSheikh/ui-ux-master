@@ -1,37 +1,69 @@
-# 🎨 UI/UX Pro Max - SaaS Design Intelligence
+# 🎨 SaaS UI Master
 
-An advanced AI agent skill designed to stop "vibe-coded," amateur interfaces and enforce professional, production-ready SaaS design patterns. 
+An advanced AI agent skill built to eliminate amateur, “vibe-coded” interfaces and enforce professional, production-ready SaaS design systems.
 
-This skill merges a strict, mathematically driven **SaaS UI/UX Master Guide** (covering layout, 4-layer color systems, and dark mode contrast) with a **massive CLI-searchable design database** (50+ styles, 97 palettes, 57 font pairings, and 99 UX guidelines across 9 tech stacks).
+**SaaS UI Master** combines a strict, mathematically structured SaaS UI framework (layout systems, 4-layer color architecture, precision dark mode contrast) with a powerful CLI-searchable design database containing 50+ styles, 97 palettes, 57 font pairings, and 99 UX rules across 9 tech stacks.
+
+---
 
 ## 🌟 Features
 
-* **The 4-Layer Color System:** Rules for creating scalable SaaS color palettes using the OKLCH color space (Neutral Foundations, Functional Accents, Semantic Communication, and Theming Engines).
-* **Mathematical Dark Mode:** Enforces specific contrast scaling (doubling lightness distances) and shifted accent colors for perfect dark mode legibility.
-* **Component Architecture:** Mandates professional layout practices, such as consolidating navigation into Account Popovers, utilizing ellipsis menus for table actions, and using focused modals over massive flyouts.
-* **CLI Search Engine:** A built-in Python search engine that allows the AI (or you) to query specific styles, palettes, and UX guidelines on the fly.
+### The 4-Layer Color System
+
+A scalable SaaS color methodology built using the OKLCH color space:
+
+* Neutral Foundations
+* Functional Accents
+* Semantic Communication
+* Theming Engines
+
+### Mathematical Dark Mode
+
+Enforces calculated contrast scaling:
+
+* Doubled lightness distances
+* Shifted accent tones
+* Consistent readability across surfaces
+
+### Component Architecture
+
+Professional SaaS layout standards:
+
+* Consolidated navigation via Account Popovers
+* Ellipsis menus for table actions
+* Focused modal workflows instead of oversized flyouts
+
+### CLI Design Search Engine
+
+A built-in Python-powered search system that lets the agent instantly query:
+
+* Design styles
+* Color palettes
+* Font systems
+* Framework-specific UX best practices
 
 ---
 
 ## 🙏 Credits & Attribution
 
-**This project stands on the shoulders of giants.** The underlying CLI search engine, Python scripts (`search.py`), and foundational data arrays in this skill were originally created by the authors of the base `ui-ux-pro-max` skill. Full credit for the Python architecture and data scraping goes to them. 
+This project builds upon the original `ui-ux-pro-max` foundation.
+The CLI search engine, `search.py`, and base data architecture were created by the original authors.
 
-This repository modifies and builds upon their excellent technical framework by injecting a strict, comprehensive **SaaS UI/UX Design philosophy** into the agent's instructions.
+**SaaS UI Master** extends that framework by embedding a strict, enterprise-grade SaaS design philosophy into the agent’s intelligence layer.
 
 ---
 
 ## 🚀 Installation
 
-You can install this skill directly into your AI agent environment using [skills.sh](https://skills.sh/).
+Install directly using skills.sh:
 
 ```bash
-npx skills add ShovonSheikh/ui-ux-master
+npx skills add ShovonSheikh/saas-ui-master
 ```
 
 ### Prerequisites
 
-Because this skill utilizes a local search database, ensure Python 3 is installed on your system:
+Ensure Python 3 is installed:
 
 ```bash
 python3 --version || python --version
@@ -41,17 +73,34 @@ python3 --version || python --version
 
 ## 💻 How It Works
 
-Once installed, your AI agent (whether in Cursor, Windsurf, or a CLI agent) will automatically trigger this skill whenever you ask it to design, code, review, or fix a user interface.
+When installed, your AI agent automatically activates SaaS UI Master whenever you request UI design, review, or refactoring.
 
-The agent will follow a two-step process:
+### Step 1: Apply SaaS Core Rules
 
-1. **Apply Core SaaS Rules:** It will immediately apply the strict UI/UX Master Guide (e.g., swapping emojis for SVG icons, fixing background layer contrast, organizing layouts).
-2. **Query the Database:** It will run terminal commands in the background to fetch specific hex codes, font pairings, or framework-specific rules (like React, Tailwind, or Vue best practices) to match your exact prompt.
+* Correct layout hierarchy
+* Fix surface contrast
+* Enforce scalable color architecture
+* Remove decorative clutter
 
-### Example Prompt to Try:
+### Step 2: Query the Design Database
+
+The agent runs background CLI queries to fetch:
+
+* Exact hex values
+* Font pairings
+* Framework-specific layout patterns (React, Tailwind, Vue, etc.)
+
+---
+
+## Example Prompt
 
 ```
-*"I'm building a settings page for my healthcare SaaS app. The sidebar currently has: Dashboard, Profile, Security, Billing, Team, API Keys, Integrations, and Logout. It feels cluttered. Generate a new layout and a dark mode color palette using a professional green accent."*
+"I'm building a settings page for my healthcare SaaS app. The sidebar currently has: Dashboard, Profile, Security, Billing, Team, API Keys, Integrations, and Logout. It feels cluttered. Generate a new layout and a dark mode color palette using a professional green accent."
 ```
 
-The agent will consolidate your navigation, generate an OKLCH-based green theme, calculate the proper dark mode contrast steps, and write the code.
+The agent will:
+
+* Consolidate navigation intelligently
+* Generate an OKLCH-based green system
+* Calculate dark mode contrast scaling
+* Output production-ready layout and theme code
